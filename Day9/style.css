@@ -1,0 +1,49 @@
+h1{
+            color:coral;
+            background-color:rgb(19, 131, 134);
+            text-align: right;
+        }
+.about{
+
+    color:coral;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card {
+    width: 260px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #0055aa;
+}
+
+.card p {
+    color: #333;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003d80;
+}
