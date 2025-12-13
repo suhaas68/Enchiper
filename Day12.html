@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Property Examples</title>
+
+<style>
+.block {
+    display: block;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hide-display {
+    display: none;
+}
+
+.hide-visibility {
+    visibility: hidden;
+}
+
+.inline-to-block {
+    display: block;
+    background-color: khaki;
+    margin: 5px;
+}
+
+.block-to-inline {
+    display: inline;
+    background-color: plum;
+    padding: 5px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>1. Block, Inline, Inline-block</h2>
+<div class="block">I am Block Element</div>
+
+<span class="inline">Inline 1</span>
+<span class="inline">Inline 2</span>
+
+<div class="inline-block">Inline-Block 1</div>
+<div class="inline-block">Inline-Block 2</div>
+
+<hr>
+
+<h2>2. display:none</h2>
+<p>This text is visible</p>
+<p class="hide-display">You cannot see me</p>
+
+<hr>
+
+<h2>3. visibility:hidden</h2>
+<p>This text is visible</p>
+<p class="hide-visibility">I am hidden</p>
+
+<hr>
+
+<h2>4. Convert Inline ↔ Block</h2>
+<span class="inline-to-block">Inline → Block</span>
+
+<div class="block-to-inline">Block → Inline</div>
+<div class="block-to-inline">Block → Inline</div>
+
+</body>
+</html>
